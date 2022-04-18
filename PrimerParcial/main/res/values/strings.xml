@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ASTRID_MALAMUD_LUNES_PARCIAL1</string>
+    <string name="usuario">USUARIO</string>
+    <string name="clave">CLAVE</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="comprar">Comprar</string>
+    <string name="principal">Principal</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="reservas">RESERVAS</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="compras">COMPRAS</string>
+    <string name="cero">0</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="volver">VOLVER</string>
+</resources>
