@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <EditText
+        android:id="@+id/ed_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#E4A2B9"
+        android:hint="@string/nombre"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error" />
+
+    <EditText
+        android:id="@+id/ed_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#E4A2B9"
+        android:hint="@string/apellido"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error" />
+
+    <EditText
+        android:id="@+id/ed_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#E4A2B9"
+        android:hint="@string/edad"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/design_default_color_error" />
+
+    <Button
+        android:id="@+id/bt_agregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#480453"
+        android:text="@string/agregar" />
+
+    <Button
+        android:id="@+id/bt_mostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#151F5C"
+        android:text="@string/mostrar" />
+
+    <TextView
+        android:id="@+id/tx_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+</LinearLayout>

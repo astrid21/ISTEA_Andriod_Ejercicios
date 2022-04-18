@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Final_MalamudAstrid</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="apellido">APELLIDO</string>
+    <string name="edad">EDAD</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="mostrar">MOSTRAR</string>
+</resources>
